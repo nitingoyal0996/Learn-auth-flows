@@ -1,0 +1,19 @@
+{
+  "taskRunnerOptions": {
+    "default": {
+      "runner": "nx/task-runners/default",
+      "options": {
+        "cacheableOperations": [
+          "build",
+          "test",
+          "lint"
+        ]
+      }
+    }
+  },
+  "plugins": [
+    "@nx-go/nx-go"
+  ],
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "defaultBase": "main"
+}
